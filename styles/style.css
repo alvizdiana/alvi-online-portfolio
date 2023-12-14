@@ -11,8 +11,8 @@
     --secondaryBackgroundColor: #fbfbfb ;
     --thirdBackgroundColor: #f5f3fe;
 
-    --primaryIconColor: #7e74f1;
-    --primaryIconColorHover: #5d51e8;
+    --primaryIconColor: #F08080;
+    --primaryIconColorHover: #CD5C5C;
 
     --sectionPadding: 6rem 0;
 
@@ -414,7 +414,7 @@ nav ul li a{
 /* Footer */
 footer{
     padding: 4rem 0;
-    background: var(--secondaryBackgroundColor);
+    background: var(--primaryIconColor);
     text-align: center;
 }
 
@@ -427,9 +427,13 @@ footer{
 }
 
 .footer-icons svg{
-    fill: #3e3f40;
+    fill: var(--primaryBackgroundColor);
+}
+
+.footer p{
+    color: #f1f1f1;
 }
 
 .footer-icons a:hover svg{
-    fill: #000;
+    fill: var(--lineColor);
 }
